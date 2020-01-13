@@ -1,0 +1,10 @@
+char_height = 44 # 80 , + 10
+char_width = 28 # 53 , - 13
+edge_ratio_min = 0.12
+edge_ratio_max = 0.8
+ratio_edge_with_image_size_max = 0.75
+min_size_contours = 7.0
+max_size_contours = 75.0
+min_score_classify=0.5
+max_distance_centeroid_threshold=250
+ratio_delta_distance_with_min_max_threshold=0.3

@@ -1,0 +1,21 @@
+12-Jan-20 15:00:13 - From C:\Python3\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+12-Jan-20 15:00:28 - From E:\DVGProjects\LicensePlateRemove\utils_segment\Model.py:6: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+12-Jan-20 15:00:28 - From E:\DVGProjects\LicensePlateRemove\utils_segment\Model.py:91: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+12-Jan-20 15:00:29 - From C:\Python3\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+12-Jan-20 15:00:29 - Restoring parameters from E:\DVGProjects\LicensePlateRemove/resources/color_models/plate_character_detect_trained.ckpt-10000
+12-Jan-20 15:00:32 - License Plate Detetect on: 1.9323678016662598s
+12-Jan-20 15:00:33 - License Plate Removal on: 0.942692756652832s
+12-Jan-20 15:00:33 - Total time: 2.875060558319092s

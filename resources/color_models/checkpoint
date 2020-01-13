@@ -1,0 +1,2 @@
+model_checkpoint_path: "plate_character_detect_trained.ckpt-10000"
+all_model_checkpoint_paths: "plate_character_detect_trained.ckpt-10000"

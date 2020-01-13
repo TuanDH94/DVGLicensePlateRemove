@@ -1,0 +1,35 @@
+{
+  "local": {
+    "plateImages": "E:\\ImageData\\colordata\\yolo_img",
+    "plateAnnotations" : "E:\\ImageData\\colordata\\yolo_annotations",
+    "plateLabels": "E:\\DVGProjects\\LicensePlateRemove\\resources\\cfg\\plate_classes.txt",
+    "yoloCfg": "E:\\DVGProjects\\LicensePlateRemove\\resources\\cfg\\yolov2.cfg",
+    "yoloWeights": "E:\\DVGProjects\\LicensePlateRemove\\resources\\bin\\yolov2.weights",
+    "yoloAnchors":"E:\\DVGProjects\\LicensePlateRemove\\resources\\bin\\yolov2_anchors.txt",
+    "yoloTopless": "E:\\DVGProjects\\LicensePlateRemove\\resources\\bin\\yolo_topless.h5",
+    "yoloH5Weights": "E:\\DVGProjects\\LicensePlateRemove\\resources\\bin\\yolov2.h5",
+    "plateDetectWeight" : "E:\\DVGProjects\\LicensePlateRemove\\resources\\bin\\license_plate_weight_1.h5"
+  },
+  "prod": {
+    "plateImages": "/opt/tuandh/data/LicensePlateRemove/yolo_img",
+    "plateAnnotations" : "/opt/tuandh/data/LicensePlateRemove/yolo_annotations",
+    "plateLabels": "/opt/tuandh/licensePlateRemoveRunner/LicensePlateRemove/resources/cfg/plate_classes.txt",
+    "yoloCfg": "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/cfg/yolov2.cfg",
+    "yoloWeights": "/opt/tuandh/licensePlateRemoveRunner/LicensePlateRemove/resources/bin/yolov2.weights",
+    "yoloAnchors":"/opt/tuandh/licensePlateRemoveRunner/LicensePlateRemove/resources/bin/yolov2_anchors.txt",
+    "yoloTopless": "/opt/tuandh/licensePlateRemoveRunner/LicensePlateRemove/resources/bin/yolo_topless.h5",
+    "yoloH5Weights": "/opt/tuandh/licensePlateRemoveRunner/LicensePlateRemove/resources/bin/yolov2.h5",
+    "plateDetectWeight" : "/opt/tuandh/licensePlateRemoveRunner/LicensePlateRemove/resources/bin/license_plate_weight.h5"
+  },
+    "training": {
+    "plateImages": "/opt/tuandh/data/LicensePlateRemove/yolo_img",
+    "plateAnnotations" : "/opt/tuandh/data/LicensePlateRemove/yolo_annotations",
+    "plateLabels": "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/cfg/plate_classes.txt",
+    "yoloCfg": "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/cfg/yolov2.cfg",
+    "yoloWeights": "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/bin/yolov2.weights",
+    "yoloAnchors":"/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/bin/yolov2_anchors.txt",
+    "yoloTopless": "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/bin/yolo_topless.h5",
+    "yoloH5Weights": "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/bin/yolov2.h5",
+    "plateDetectWeight" : "/opt/tuandh/code/LicensePlateRemove/LicensePlateRemove/resources/bin/license_plate_weight.h5"
+  }
+}
